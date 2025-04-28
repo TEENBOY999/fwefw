@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Silo</title>
+    <link rel="stylesheet" href="./23.css">
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="#" class="nav-item active">Home</a>
+                <a href="#" class="nav-item">Genre</a>
+                <a href="#" class="nav-item">Country</a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search movies..." class="search-input">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="nav-item">Movies</a>
+                <a href="#" class="nav-item">Series</a> 
+                <a href="#" class="nav-item">Animation</a>
+                <a href="#" class="nav-item login">Login/Signup <i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="video-player">
+            <div class="player-container">
+                <iframe class="sas" margin-top="-1000000px" width="1332px" height="712px" src="https://www.youtube.com/embed/8ZYhuvIv1pA" title="Silo — Official Trailer | Apple TV+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <source src="#" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-controls">
+           
+                    <div class="controls-main">
+                        <div class="controls-left">
+                            <button class="control-button volume">
+                                <i class="fas fa-volume-up"></i>
+                            </button>
+                        </div>
+                        <div class="controls-center">
+                            <button class="control-button rewind">
+                                <i class="fas fa-undo-alt"></i>
+                            </button>
+                            <button class="control-button play-pause">
+                                <i class="fas fa-pause"></i>
+                            </button>
+                            <button class="control-button forward">
+                                <i class="fas fa-redo-alt"></i>
+                            </button>
+                        </div>
+                        <div class="controls-right">
+                            <button class="control-button cc">
+                                <i class="fas fa-closed-captioning"></i>
+                            </button>
+                            <button class="control-button settings">
+                                <i class="fas fa-cog"></i>
+                            </button>
+                            <button class="control-button fullscreen">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-details">
+            <div class="poster-container">
+                <img src="Rectangle 25.png" alt="Silo Poster" class="movie-poster">
+            </div>
+            <div class="details-container">
+                <div class="title-container">
+                    <h1 class="movie-title">Silo</h1>
+                    <button class="favourite-button">
+                        <i class="fas fa-plus"></i> Add to Favourite
+                    </button>
+                </div>
+                <div class="tags-container">
+                    <span class="tag">Drama</span>
+                    <span class="tag">Science Fiction</span>
+                    <span class="year"><i class="far fa-calendar-alt"></i> 2023</span>
+                    <span class="duration"><i class="far fa-clock"></i> 50:36</span>
+                    <span class="rating"><i class="fas fa-star"></i> 8.5</span>
+                </div>
+                <p class="movie-description">
+                    Men and women live in a community exists in a giant underground silo that plunges hundreds of stories deep. There, men and women live in a society full of regulations they believe are meant to protect them.
+                </p>
+                <div class="metadata-grid">
+                    <div class="metadata-row">
+                        <span class="metadata-label">Country</span>
+                        <span class="metadata-value">United States</span>
+                    </div>
+                    <div class="metadata-row">
+                        <span class="metadata-label">Genre</span>
+                        <span class="metadata-value">Drama, Science Fiction</span>
+                    </div>
+                    <div class="metadata-row">
+                        <span class="metadata-label">Date Release</span>
+                        <span class="metadata-value">May 25, 2023</span>
+                    </div>
+                    <div class="metadata-row">
+                        <span class="metadata-label">Production</span>
+                        <span class="metadata-value">AMC Studios</span>
+                    </div>
+                    <div class="metadata-row">
+                        <span class="metadata-label">Cast</span>
+                        <span class="metadata-value">Tim Robbins, Rebecca Ferguson, Anji Nash, Rashida Jones, David Oyelowo, Tim Robbins</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="episodes-section">
+            <div class="season-selector">
+                <h2>Season 1 <i class="fas fa-chevron-down"></i></h2>
+            </div>
+            <div class="episodes-grid">
+                <div class="episode-card active">
+                    <button class="episode-play-button">
+                        <i class="fas fa-play"></i> Episode 1: Freedom Day
+                    </button>
+                </div>
+                <div class="episode-card">
+                    <button class="episode-play-button">
+                        <i class="fas fa-play"></i> Episode 2: Holston's Pick
+                    </button>
+                </div>
+                <div class="episode-card">
+                    <button class="episode-play-button">
+                        <i class="fas fa-play"></i> Episode 3: Machines
+                    </button>
+                </div>
+                <div class="episode-card">
+                    <button class="episode-play-button">
+                        <i class="fas fa-play"></i> Episode 4: Truth
+                    </button>
+                </div>
+                <div class="episode-card">
+                    <button class="episode-play-button">
+                        <i class="fas fa-play"></i> Episode 5: The Janitor's Boy
+                    </button>
+                </div>
+                <div class="episode-card">
+                    <button class="episode-play-button">
+                        <i class="fas fa-play"></i> Episode 6: The Relic
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 StreamFlix. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Help Center</a> 
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+ 
+   
+</body>
+</html> 

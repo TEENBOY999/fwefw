@@ -1,0 +1,287 @@
+.dark-mode{
+    background-color: #fff;
+}
+
+.light-mode{
+
+    background-color: black;
+  color: #fff;
+}
+
+.as {
+    width: 60px;
+    justify-content: space-between;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+    border: none;
+}
+
+.boxa {
+    width: 30px;
+    margin-left: -5px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+
+}
+
+.l {
+    height: 33.6px;
+    width: 40px;
+    border-radius: 0 25px  25px 0 ;
+    border: 2px solid black;
+}
+
+.inp {
+    width: 170px;
+height: 28px;
+top: 24px;
+left: 445px;
+border-radius: 25px 0 0 25px;
+border: 2px solid black;
+
+}
+
+.li1 {
+    display: flex;
+    align-items: center;
+}
+
+.li:hover{
+text-decoration: 3px underline red;
+cursor: pointer;
+}
+
+
+.butons1{
+    width: 223px;
+    height: 76px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+background-color: red;
+font-family: Poppins;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+color: white;
+border: none;    
+}
+
+.butons2{
+    color: white;
+    width: 200px;
+height: 76px;
+gap: 10px;
+border-width: 3px;
+border-radius: 5px;
+padding: 10px;
+background-color: transparent;
+font-family: Poppins;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+border: 2px solid red;
+letter-spacing: 0%;
+
+}
+
+.ota {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+.section {
+    background-image: url(./Rectangle\ 2\ \(2\).png);
+    width: 1200px;
+height: 644px;
+top: 112px;
+background-size: cover;
+background-position: center;
+
+}
+
+.bola1 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+.ota2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.box1 {
+    width: 43px;
+height: 14px;
+gap: 10px;
+border-radius: 20px;
+padding: 10px;
+background-color: white;
+
+color:black;
+}
+
+.box2 {
+    width: 70px;
+    height: 14px;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color:black;
+    
+
+}
+
+.box3 {
+
+    width: 102px;
+height: 14px;
+color: black;
+gap: 10px;
+border-radius: 20px;
+padding: 10px;
+background-color: white;
+
+    
+
+}
+
+.boxs {
+    width: 21px;
+height: 21px;
+background-color: white;
+border-radius: 100%;
+}
+
+.boxs1 {
+    width: 50px;
+height: 21px;
+background-color: red;
+border-radius: 20px;
+
+}
+
+.k {
+    display: flex;
+    margin-left: 350px;
+    gap: 10px;
+}
+
+
+.boxas {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.s {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bolas {
+    width: 256px;
+height: 344px;
+border-radius: 10px;
+
+}
+
+.otas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.otaaa {
+ list-style: none;
+   width: 200px;
+    
+
+}
+
+.list-item {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+ gap: 100px;
+}
+
+.jojo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mk {
+    display: flex;
+    align-items: center;
+}
+
+.koko {
+    width: 20px;
+    height: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 4px;
+background-color: red;
+color: white;    
+}
+
+.kok {
+    width: 62px;
+height: 20px;
+gap: 8px;
+border-radius: 5px;
+padding: 4px;
+border-width: 1px;
+border: 2px solid red;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.lolo{
+    position: absolute;
+    margin-top: -860px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 730px;
+}
